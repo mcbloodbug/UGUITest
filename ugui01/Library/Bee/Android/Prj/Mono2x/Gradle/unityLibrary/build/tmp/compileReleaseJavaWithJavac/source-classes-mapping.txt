@@ -1,0 +1,6 @@
+com/unity3d/player/BuildConfig.java
+ com.unity3d.player.BuildConfig
+com/unity3d/player/UnityPlayerActivity.java
+ com.unity3d.player.UnityPlayerActivity
+com/example/combinejava/testsucc.java
+ com.example.combinejava.testsucc

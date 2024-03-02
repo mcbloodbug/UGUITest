@@ -286,7 +286,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 173372619}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1561101980}
+        m_TargetAssemblyTypeName: ChooseMap, Assembly-CSharp
+        m_MethodName: SwitchToScene5
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &173372619
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -736,10 +748,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 100
+    m_FontSize: 60
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 1
+    m_MinSize: 0
     m_MaxSize: 100
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -747,7 +759,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u65E0\u6548"
+  m_Text: "\u5339\u914D\n\u673A\u5236"
 --- !u!222 &461576260
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -968,7 +980,7 @@ RectTransform:
   m_GameObject: {fileID: 1232250598}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1436506331}
@@ -1023,7 +1035,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1232250601}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1561101980}
+        m_TargetAssemblyTypeName: ChooseMap, Assembly-CSharp
+        m_MethodName: SwitchToJava
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1232250601
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1044,8 +1068,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 0
+  m_Sprite: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -1455,7 +1479,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u65E0\u6548"
+  m_Text: Java
 --- !u!222 &1436506333
 CanvasRenderer:
   m_ObjectHideFlags: 0

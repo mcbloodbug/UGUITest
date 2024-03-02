@@ -23,4 +23,20 @@ public class ChooseMap : MonoBehaviour
     {
         SceneManager.LoadScene("Map04");
     }
+    public void SwitchToScene5()
+    {
+        SceneManager.LoadScene("Map05");
+    }
+    public void SwitchToScene6()
+    {
+        SceneManager.LoadScene("Map06");
+    }
+    public void SwitchToBird()
+    {
+        SceneManager.LoadScene("FlyBird");
+    }
+    public void SwitchToJava()
+    {
+        SceneManager.LoadScene("UseJar");
+    }
 } 

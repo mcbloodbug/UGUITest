@@ -4,7 +4,7 @@
     "type": "APK",
     "kind": "Directory"
   },
-  "applicationId": "com.DefaultCompany.ugui01",
+  "applicationId": "com.cafegame.ugui01",
   "variantName": "release",
   "elements": [
     {

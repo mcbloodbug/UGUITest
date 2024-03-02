@@ -1,0 +1,150 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="com.unity3d.player" >
+5
+6    <uses-sdk
+7        android:minSdkVersion="27"
+7-->D:\UNITY WORK\uguitest\androidapk\bird2\unityLibrary\src\main\AndroidManifest.xml
+8        android:targetSdkVersion="30" />
+8-->D:\UNITY WORK\uguitest\androidapk\bird2\unityLibrary\src\main\AndroidManifest.xml
+9
+10    <uses-feature android:glEsVersion="0x00030000" />
+10-->D:\UNITY WORK\uguitest\androidapk\bird2\unityLibrary\src\main\AndroidManifest.xml:26:3-52
+10-->D:\UNITY WORK\uguitest\androidapk\bird2\unityLibrary\src\main\AndroidManifest.xml:26:17-49
+11    <uses-feature
+11-->D:\UNITY WORK\uguitest\androidapk\bird2\unityLibrary\src\main\AndroidManifest.xml:27:3-91
+12        android:name="android.hardware.vulkan.version"
+12-->D:\UNITY WORK\uguitest\androidapk\bird2\unityLibrary\src\main\AndroidManifest.xml:27:17-63
+13        android:required="false" />
+13-->D:\UNITY WORK\uguitest\androidapk\bird2\unityLibrary\src\main\AndroidManifest.xml:27:64-88
+14
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->D:\UNITY WORK\uguitest\androidapk\bird2\unityLibrary\src\main\AndroidManifest.xml:28:3-65
+15-->D:\UNITY WORK\uguitest\androidapk\bird2\unityLibrary\src\main\AndroidManifest.xml:28:20-62
+16
+17    <uses-feature
+17-->D:\UNITY WORK\uguitest\androidapk\bird2\unityLibrary\src\main\AndroidManifest.xml:29:3-88
+18        android:name="android.hardware.touchscreen"
+18-->D:\UNITY WORK\uguitest\androidapk\bird2\unityLibrary\src\main\AndroidManifest.xml:29:17-60
+19        android:required="false" />
+19-->D:\UNITY WORK\uguitest\androidapk\bird2\unityLibrary\src\main\AndroidManifest.xml:29:61-85
+20    <uses-feature
+20-->D:\UNITY WORK\uguitest\androidapk\bird2\unityLibrary\src\main\AndroidManifest.xml:30:3-99
+21        android:name="android.hardware.touchscreen.multitouch"
+21-->D:\UNITY WORK\uguitest\androidapk\bird2\unityLibrary\src\main\AndroidManifest.xml:30:17-71
+22        android:required="false" />
+22-->D:\UNITY WORK\uguitest\androidapk\bird2\unityLibrary\src\main\AndroidManifest.xml:30:72-96
+23    <uses-feature
+23-->D:\UNITY WORK\uguitest\androidapk\bird2\unityLibrary\src\main\AndroidManifest.xml:31:3-108
+24        android:name="android.hardware.touchscreen.multitouch.distinct"
+24-->D:\UNITY WORK\uguitest\androidapk\bird2\unityLibrary\src\main\AndroidManifest.xml:31:17-80
+25        android:required="false" />
+25-->D:\UNITY WORK\uguitest\androidapk\bird2\unityLibrary\src\main\AndroidManifest.xml:31:81-105
+26
+27    <application android:extractNativeLibs="true" >
+27-->D:\UNITY WORK\uguitest\androidapk\bird2\unityLibrary\src\main\AndroidManifest.xml:3:3-25:17
+27-->D:\UNITY WORK\uguitest\androidapk\bird2\unityLibrary\src\main\AndroidManifest.xml:3:16-48
+28        <activity
+28-->D:\UNITY WORK\uguitest\androidapk\bird2\unityLibrary\src\main\AndroidManifest.xml:5:5-12:16
+29            android:name="com.unity3d.player.TestActivity"
+29-->D:\UNITY WORK\uguitest\androidapk\bird2\unityLibrary\src\main\AndroidManifest.xml:5:15-61
+30            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+30-->D:\UNITY WORK\uguitest\androidapk\bird2\unityLibrary\src\main\AndroidManifest.xml:5:173-354
+31            android:hardwareAccelerated="false"
+31-->D:\UNITY WORK\uguitest\androidapk\bird2\unityLibrary\src\main\AndroidManifest.xml:5:390-425
+32            android:launchMode="singleTask"
+32-->D:\UNITY WORK\uguitest\androidapk\bird2\unityLibrary\src\main\AndroidManifest.xml:5:141-172
+33            android:resizeableActivity="false"
+33-->D:\UNITY WORK\uguitest\androidapk\bird2\unityLibrary\src\main\AndroidManifest.xml:5:355-389
+34            android:screenOrientation="fullUser"
+34-->D:\UNITY WORK\uguitest\androidapk\bird2\unityLibrary\src\main\AndroidManifest.xml:5:104-140
+35            android:theme="@style/UnityThemeSelector" >
+35-->D:\UNITY WORK\uguitest\androidapk\bird2\unityLibrary\src\main\AndroidManifest.xml:5:62-103
+36            <intent-filter>
+36-->D:\UNITY WORK\uguitest\androidapk\bird2\unityLibrary\src\main\AndroidManifest.xml:6:7-9:23
+37                <action android:name="android.intent.action.MAIN" />
+37-->D:\UNITY WORK\uguitest\androidapk\bird2\unityLibrary\src\main\AndroidManifest.xml:7:9-61
+37-->D:\UNITY WORK\uguitest\androidapk\bird2\unityLibrary\src\main\AndroidManifest.xml:7:17-58
+38
+39                <category android:name="android.intent.category.LAUNCHER" />
+39-->D:\UNITY WORK\uguitest\androidapk\bird2\unityLibrary\src\main\AndroidManifest.xml:8:9-69
+39-->D:\UNITY WORK\uguitest\androidapk\bird2\unityLibrary\src\main\AndroidManifest.xml:8:19-66
+40            </intent-filter>
+41
+42            <meta-data
+42-->D:\UNITY WORK\uguitest\androidapk\bird2\unityLibrary\src\main\AndroidManifest.xml:10:7-82
+43                android:name="unityplayer.UnityActivity"
+43-->D:\UNITY WORK\uguitest\androidapk\bird2\unityLibrary\src\main\AndroidManifest.xml:10:18-58
+44                android:value="true" />
+44-->D:\UNITY WORK\uguitest\androidapk\bird2\unityLibrary\src\main\AndroidManifest.xml:10:59-79
+45            <meta-data
+45-->D:\UNITY WORK\uguitest\androidapk\bird2\unityLibrary\src\main\AndroidManifest.xml:11:7-78
+46                android:name="android.notch_support"
+46-->D:\UNITY WORK\uguitest\androidapk\bird2\unityLibrary\src\main\AndroidManifest.xml:11:18-54
+47                android:value="true" />
+47-->D:\UNITY WORK\uguitest\androidapk\bird2\unityLibrary\src\main\AndroidManifest.xml:11:55-75
+48        </activity>
+49        <activity
+49-->D:\UNITY WORK\uguitest\androidapk\bird2\unityLibrary\src\main\AndroidManifest.xml:14:5-18:16
+50            android:name="com.unity3d.player.UnityPlayerActivity"
+50-->D:\UNITY WORK\uguitest\androidapk\bird2\unityLibrary\src\main\AndroidManifest.xml:14:15-68
+51            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+51-->D:\UNITY WORK\uguitest\androidapk\bird2\unityLibrary\src\main\AndroidManifest.xml:14:180-361
+52            android:hardwareAccelerated="false"
+52-->D:\UNITY WORK\uguitest\androidapk\bird2\unityLibrary\src\main\AndroidManifest.xml:14:397-432
+53            android:launchMode="singleTask"
+53-->D:\UNITY WORK\uguitest\androidapk\bird2\unityLibrary\src\main\AndroidManifest.xml:14:148-179
+54            android:resizeableActivity="false"
+54-->D:\UNITY WORK\uguitest\androidapk\bird2\unityLibrary\src\main\AndroidManifest.xml:14:362-396
+55            android:screenOrientation="fullUser"
+55-->D:\UNITY WORK\uguitest\androidapk\bird2\unityLibrary\src\main\AndroidManifest.xml:14:111-147
+56            android:theme="@style/UnityThemeSelector" >
+56-->D:\UNITY WORK\uguitest\androidapk\bird2\unityLibrary\src\main\AndroidManifest.xml:14:69-110
+57            <meta-data
+57-->D:\UNITY WORK\uguitest\androidapk\bird2\unityLibrary\src\main\AndroidManifest.xml:10:7-82
+58                android:name="unityplayer.UnityActivity"
+58-->D:\UNITY WORK\uguitest\androidapk\bird2\unityLibrary\src\main\AndroidManifest.xml:10:18-58
+59                android:value="true" />
+59-->D:\UNITY WORK\uguitest\androidapk\bird2\unityLibrary\src\main\AndroidManifest.xml:10:59-79
+60            <meta-data
+60-->D:\UNITY WORK\uguitest\androidapk\bird2\unityLibrary\src\main\AndroidManifest.xml:11:7-78
+61                android:name="android.notch_support"
+61-->D:\UNITY WORK\uguitest\androidapk\bird2\unityLibrary\src\main\AndroidManifest.xml:11:18-54
+62                android:value="true" />
+62-->D:\UNITY WORK\uguitest\androidapk\bird2\unityLibrary\src\main\AndroidManifest.xml:11:55-75
+63        </activity>
+64
+65        <meta-data
+65-->D:\UNITY WORK\uguitest\androidapk\bird2\unityLibrary\src\main\AndroidManifest.xml:20:5-69
+66            android:name="unity.splash-mode"
+66-->D:\UNITY WORK\uguitest\androidapk\bird2\unityLibrary\src\main\AndroidManifest.xml:20:16-48
+67            android:value="0" />
+67-->D:\UNITY WORK\uguitest\androidapk\bird2\unityLibrary\src\main\AndroidManifest.xml:20:49-66
+68        <meta-data
+68-->D:\UNITY WORK\uguitest\androidapk\bird2\unityLibrary\src\main\AndroidManifest.xml:21:5-74
+69            android:name="unity.splash-enable"
+69-->D:\UNITY WORK\uguitest\androidapk\bird2\unityLibrary\src\main\AndroidManifest.xml:21:16-50
+70            android:value="True" />
+70-->D:\UNITY WORK\uguitest\androidapk\bird2\unityLibrary\src\main\AndroidManifest.xml:21:51-71
+71        <meta-data
+71-->D:\UNITY WORK\uguitest\androidapk\bird2\unityLibrary\src\main\AndroidManifest.xml:22:5-78
+72            android:name="unity.launch-fullscreen"
+72-->D:\UNITY WORK\uguitest\androidapk\bird2\unityLibrary\src\main\AndroidManifest.xml:22:16-54
+73            android:value="True" />
+73-->D:\UNITY WORK\uguitest\androidapk\bird2\unityLibrary\src\main\AndroidManifest.xml:22:55-75
+74        <meta-data
+74-->D:\UNITY WORK\uguitest\androidapk\bird2\unityLibrary\src\main\AndroidManifest.xml:23:5-84
+75            android:name="unity.allow-resizable-window"
+75-->D:\UNITY WORK\uguitest\androidapk\bird2\unityLibrary\src\main\AndroidManifest.xml:23:16-59
+76            android:value="False" />
+76-->D:\UNITY WORK\uguitest\androidapk\bird2\unityLibrary\src\main\AndroidManifest.xml:23:60-81
+77        <meta-data
+77-->D:\UNITY WORK\uguitest\androidapk\bird2\unityLibrary\src\main\AndroidManifest.xml:24:5-81
+78            android:name="notch.config"
+78-->D:\UNITY WORK\uguitest\androidapk\bird2\unityLibrary\src\main\AndroidManifest.xml:24:16-43
+79            android:value="portrait|landscape" />
+79-->D:\UNITY WORK\uguitest\androidapk\bird2\unityLibrary\src\main\AndroidManifest.xml:24:44-78
+80    </application>
+81
+82</manifest>

@@ -1,0 +1,17 @@
+com.cafegame.ugui01:style/BaseUnityTheme = 0x7f040000
+com.cafegame.ugui01:string/FreeformWindowSize_phone = 0x7f030003
+com.cafegame.ugui01:string/FreeformWindowOrientation_landscape = 0x7f030000
+com.cafegame.ugui01:mipmap/app_icon = 0x7f020000
+com.cafegame.ugui01:mipmap/app_icon_round = 0x7f020001
+com.cafegame.ugui01:string/app_name = 0x7f030005
+com.cafegame.ugui01:style/UnityThemeSelector = 0x7f040001
+com.cafegame.ugui01:id/btn01 = 0x7f010001
+com.cafegame.ugui01:string/game_view_content_description = 0x7f030006
+com.cafegame.ugui01:style/UnityThemeSelector.Translucent = 0x7f040002
+com.cafegame.ugui01:string/FreeformWindowOrientation_portrait = 0x7f030001
+com.cafegame.ugui01:mipmap/ic_launcher_foreground = 0x7f020003
+com.cafegame.ugui01:string/FreeformWindowSize_maximize = 0x7f030002
+com.cafegame.ugui01:mipmap/ic_launcher_background = 0x7f020002
+com.cafegame.ugui01:string/FreeformWindowSize_tablet = 0x7f030004
+com.cafegame.ugui01:layout/first_layout = 0x7f050000
+com.cafegame.ugui01:id/unitySurfaceView = 0x7f010000

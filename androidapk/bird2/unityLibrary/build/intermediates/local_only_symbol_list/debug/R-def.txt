@@ -1,0 +1,13 @@
+R_DEF: Internal format may change without notice
+local
+id btn01
+id unitySurfaceView
+layout first_layout
+string FreeformWindowOrientation_landscape
+string FreeformWindowOrientation_portrait
+string FreeformWindowSize_maximize
+string FreeformWindowSize_phone
+string FreeformWindowSize_tablet
+style BaseUnityTheme
+style UnityThemeSelector
+style UnityThemeSelector.Translucent

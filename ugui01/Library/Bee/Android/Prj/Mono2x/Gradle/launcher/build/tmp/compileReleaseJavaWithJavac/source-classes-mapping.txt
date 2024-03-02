@@ -1,0 +1,2 @@
+com/cafegame/ugui01/BuildConfig.java
+ com.cafegame.ugui01.BuildConfig

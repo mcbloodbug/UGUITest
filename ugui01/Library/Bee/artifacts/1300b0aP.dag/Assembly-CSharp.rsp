@@ -301,8 +301,19 @@
 -r:"Library/Bee/artifacts/1300b0aP.dag/Unity.VisualScripting.Flow.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aP.dag/Unity.VisualScripting.State.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aP.dag/UnityEngine.UI.ref.dll"
+"Assets/Scripts/bird/bg_control.cs"
+"Assets/Scripts/bird/bird_control.cs"
+"Assets/Scripts/bird/GameManager1.cs"
+"Assets/Scripts/bird/pipe_control.cs"
+"Assets/Scripts/ButtonManager.cs"
+"Assets/Scripts/byjava/javaManager.cs"
+"Assets/Scripts/byjava/UseJar.cs"
 "Assets/Scripts/ChooseMap.cs"
+"Assets/Scripts/match/Cube.cs"
+"Assets/Scripts/match/CubeManager.cs"
+"Assets/Scripts/match/MatchmakingSystem.cs"
 "Assets/Scripts/TextControl.cs"
+"Assets/Scripts/Ui3DCamera.cs"
 -langversion:9.0
 
 /deterministic
